@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>cart</h1>
+
+
+{% if cart.products.exists %}
+<table class="table cart-table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Product name</th>
+      <th scope="col">Product price</th>
+    </tr>
+  </thead>
+  <tbody class="cart-body">
+    {% for product in cart.products.all %}
+    <tr class="cart-products">
+      <th scope="row">{{ forloop.counter }}</th>
+      <td><a href="{{ product.get_absolute_url }}">{{product.title}}</a>
+        {% include 'snippets/remove_product.html' with product_id=product.id %}
+
+      <td>{{product.price}}</td>
+    </tr>
+    {% endfor %}
+    <tr>
+      <th colspan="2"></th>
+      <td><b>Subtotal- </b><span class="cart-subtotal"> {{cart.subtotal}}</span></td>
+    </tr>
+    <tr>
+      <th colspan="2"></th>
+      <td><b>Total- </b><span class="cart-total"> {{cart.total}}</span></td>
+    </tr>
+    <tr>
+      <th colspan="2"></th>
+      <td><a class="btn btn-block btn-success" href="{% url "carts:checkout" %}">CheckOut</a></td>
+    </tr>
+  </tbody>
+</table>
+<div class="cart-item-remove-form" style='display:none'>
+  {% include 'snippets/remove_product.html' %}
+</div>
+
+{% else %}
+<p class="lead">Cart is empty</p>
+
+{% endif %}
+
+
+{% endblock %}

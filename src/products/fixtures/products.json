@@ -1,0 +1,145 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "title": "t-shirt",
+        "slug": "t-shirt-yptj",
+        "description": "Heavy metal t-shirt",
+        "price": "40.13",
+        "image": "products/284312861/284312861.jpeg",
+        "featured": false,
+        "timestamp": "2021-01-04T17:05:46.657Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "title": "Hat",
+        "slug": "nio",
+        "description": "Cowboy hat",
+        "price": "39.99",
+        "image": "products/239654058/239654058.jpeg",
+        "featured": false,
+        "timestamp": "2021-01-04T17:05:46.657Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "title": "lungi",
+        "slug": "lungi",
+        "description": "best for sleep",
+        "price": "12.99",
+        "image": "products/114738449/114738449.jpeg",
+        "featured": false,
+        "timestamp": "2021-01-04T17:05:46.657Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "title": "pant",
+        "slug": "abc",
+        "description": "with jaingga",
+        "price": "39.99",
+        "image": "products/336028514/336028514.jpeg",
+        "featured": true,
+        "timestamp": "2021-01-04T17:05:46.657Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "title": "t-shirt",
+        "slug": "t-shirt",
+        "description": "lalu shirt",
+        "price": "39.99",
+        "image": "",
+        "featured": false,
+        "timestamp": "2021-01-04T17:05:46.657Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "title": "bra",
+        "slug": "bra",
+        "description": "cheap selling bra",
+        "price": "39.99",
+        "image": "products/239644292/239644292.jpeg",
+        "featured": true,
+        "timestamp": "2021-01-04T17:24:45.307Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "title": "Panty",
+        "slug": "panty",
+        "description": "Hi quality cheap rated panty",
+        "price": "39.99",
+        "image": "products/254285751/254285751.jpeg",
+        "featured": true,
+        "timestamp": "2021-01-04T17:25:10.830Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "title": "shoe",
+        "slug": "shoe",
+        "description": "apex brand shoe",
+        "price": "39.99",
+        "image": "products/355903949/355903949.jpeg",
+        "featured": true,
+        "timestamp": "2021-01-04T17:25:37.158Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+        "title": "hoodie",
+        "slug": "hoodie",
+        "description": "heavey metal hoodie",
+        "price": "39.99",
+        "image": "products/222362894/222362894.jpg",
+        "featured": true,
+        "timestamp": "2021-01-04T17:26:09.613Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+        "title": "mask",
+        "slug": "mask",
+        "description": "mask is free",
+        "price": "0.00",
+        "image": "products/64892430/64892430.jpg",
+        "featured": true,
+        "timestamp": "2021-01-04T17:26:58.076Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+        "title": "Hat",
+        "slug": "hat",
+        "description": "Awesome hat it is",
+        "price": "39.99",
+        "image": "products/359407444/359407444.jpg",
+        "featured": false,
+        "timestamp": "2021-01-05T16:05:00.234Z"
+    }
+}
+]
